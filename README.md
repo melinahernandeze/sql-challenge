@@ -22,9 +22,9 @@ The repository is organized as follows:
 
 #### SQL_Scripts:
 
-01_Create_Tables.sql: SQL script to create tables for departments, employees, dept_emp, dept_manager, salaries, and titles.
-02_Import_Data.sql: SQL script to import CSV data into the created tables.
-03_Data_Analysis.sql: SQL script containing queries to answer specific questions about the data.
+Create_Tables.sql: SQL script to create tables for departments, employees, dept_emp, dept_manager, salaries, and titles.
+Import_Data.sql: SQL script to import CSV data into the created tables.
+Data_Analysis.sql: SQL script containing queries to answer specific questions about the data.
 data:
 
 #### CSV files containing sample data for the project.
@@ -34,12 +34,12 @@ data:
 #### Setup Database:
 
 Create a new PostgreSQL database.
-Execute the SQL script 01_Create_Tables.sql to create tables.
-Execute the SQL script 02_Import_Data.sql to import data into tables.
+Execute the SQL script Create_Tables.sql to create tables.
+Execute the SQL script Import_Data.sql to import data into tables.
 
 #### Run Data Analysis Queries:
 
-Execute the SQL script 03_Data_Analysis.sql to perform data analysis.
+Execute the SQL script Data_Analysis.sql to perform data analysis.
 
 ## Requirements
 
